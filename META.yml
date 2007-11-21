@@ -1,6 +1,6 @@
 ---
 name: CGI-FormBuilderX-More
-version: 0.010
+version: 0.011
 author:
   - 'Robert Krimen, C<< <rkrimen at cpan.org> >>'
 abstract: 'Additional input gathering/interrogating functionality for CGI::FormBuilder '
@@ -17,7 +17,7 @@ build_requires:
 provides:
   CGI::FormBuilderX::More:
     file: lib/CGI/FormBuilderX/More.pm
-    version: 0.010
+    version: 0.011
 generated_by: Module::Build version 0.2806
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

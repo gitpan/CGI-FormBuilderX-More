@@ -9,11 +9,11 @@ CGI::FormBuilderX::More - Additional input gathering/interrogating functionality
 
 =head1 VERSION
 
-Version 0.010
+Version 0.011
 
 =cut
 
-our $VERSION = '0.010';
+our $VERSION = '0.011';
 
 =head1 SYNOPSIS
 
@@ -73,7 +73,9 @@ Configure exactly as you would a normal CGI::FormBuilder object
 =head2 pressed( <name> )
 
 Returns the value of ->param(<name>) if <name> exists and has a value
+
 If not, then returns the value of ->param("<name>.x") if "<name>.x" exists and has a value
+
 Otherwise, returns undef
 
 Essentially, you can use this method to find out which button the user pressed. This method does not require
